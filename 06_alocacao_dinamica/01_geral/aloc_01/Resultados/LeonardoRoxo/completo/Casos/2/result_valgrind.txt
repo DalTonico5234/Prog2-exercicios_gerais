@@ -1,0 +1,15 @@
+==95951== Memcheck, a memory error detector
+==95951== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==95951== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==95951== Command: Resultados/LeonardoRoxo/completo/prog Resultados/LeonardoRoxo/completo/Casos/2
+==95951== Parent PID: 95950
+==95951== 
+==95951== 
+==95951== HEAP SUMMARY:
+==95951==     in use at exit: 0 bytes in 0 blocks
+==95951==   total heap usage: 3 allocs, 3 frees, 8,212 bytes allocated
+==95951== 
+==95951== All heap blocks were freed -- no leaks are possible
+==95951== 
+==95951== For lists of detected and suppressed errors, rerun with: -s
+==95951== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

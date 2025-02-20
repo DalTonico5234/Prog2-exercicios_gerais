@@ -1,0 +1,12 @@
+main.c: In function ‘main’:
+main.c:17:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   17 |     printf("Soma: %d\n", AplicarOperacaoVetor(&v, Adicao));
+      |     ^~~~~~
+main.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "vetor.h"
+  +++ |+#include <stdio.h>
+    2 | 
+main.c:17:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   17 |     printf("Soma: %d\n", AplicarOperacaoVetor(&v, Adicao));
+      |     ^~~~~~
+main.c:17:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
